@@ -1,26 +1,25 @@
 "use strict";
 
-let React = require('React');
-let ReactDOM = require('ReactDOM');
 let jQuery = require('jquery');
-let Tooltip = require('Tooltip');
-let Util = require('Util');
-let fetchRemoteFile = require('fetchRemoteFile');
-let Changesets = require('Changesets');
+let React = require('deprecated!react');
+let ReactDOM = require('deprecated!react-dom');
 let _ = require('lodash');
+
+let Changesets = require('runway-compiler/lib/changesets.js');
+let Tooltip = require('runway-browser/lib/tooltip.js');
+let Util = require('runway-browser/lib/util.js');
 
 let View = function(controller, svg, module) {
 
 let model = module.env;
 let tooltip = new Tooltip(jQuery('#tooltip'));
 
-let basename = 'node_modules/runway-compiler/examples/toomanybananas';
 return Promise.all([
-  fetchRemoteFile(`${basename}/bg.svg`),
-  fetchRemoteFile(`${basename}/banana.svg`),
-  fetchRemoteFile(`${basename}/happy.svg`),
-  fetchRemoteFile(`${basename}/hungry.svg`),
-  fetchRemoteFile(`${basename}/note.svg`),
+  require('./assets/bg.svg'),
+  require('./assets/banana.svg'),
+  require('./assets/happy.svg'),
+  require('./assets/hungry.svg'),
+  require('./assets/note.svg'),
 ]).then(results => {
 
 let svgs = {

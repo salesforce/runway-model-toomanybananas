@@ -1,1 +1,1 @@
-toomanybananas.jsx
+module.exports = require('./toomanybananas.jsx');
