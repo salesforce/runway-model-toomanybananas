@@ -1,3 +1,11 @@
+/*
+ * Copyright (c) 2016, Salesforce.com, Inc.
+ * All rights reserved.
+ * Licensed under the MIT license.
+ * For full license text, see LICENSE.md file in the repo root or
+ * https://opensource.org/licenses/MIT
+ */
+
 var bananas : 0..100 = 2;
 type Person : either {
   Happy,
