@@ -10,5 +10,18 @@
     "runway"
   ],
   "author": "Diego Ongaro <dongaro@salesforce.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "models": {
+    "main": "correct",
+    "correct": {
+      "name": "Too Many Bananas: Correct",
+      "spec": "toomanybananas.model",
+      "view": "toomanybananas.jsx"
+    },
+    "broken": {
+      "name": "Too Many Bananas: Broken",
+      "spec": "broken.model",
+      "view": "toomanybananas.jsx"
+    }
+  }
 }
