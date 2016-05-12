@@ -12,17 +12,18 @@
   "author": "Diego Ongaro <dongaro@salesforce.com>",
   "license": "MIT",
   "runway-label": "Too Many Bananas",
-  "models": {
-    "main": "correct",
-    "correct": {
-      "name": "Too Many Bananas: Correct",
-      "spec": "toomanybananas.model",
-      "view": "toomanybananas.jsx"
-    },
-    "broken": {
-      "name": "Too Many Bananas: Broken",
+  "models": [
+    {
+      "id": "broken",
+      "label": "Too Many Bananas: Broken",
       "spec": "broken.model",
       "view": "toomanybananas.jsx"
+    },
+    {
+      "id": "correct",
+      "label": "Too Many Bananas: Correct",
+      "spec": "toomanybananas.model",
+      "view": "toomanybananas.jsx"
     }
-  }
+  ]
 }
