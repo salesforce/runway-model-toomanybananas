@@ -11,7 +11,7 @@ wouldn't want to waste any. The requirement, for the purpose of this model, is
 that you should never have more than 8 bananas at home.
 
 This code meant to be used in
-[Runway](https://github.com/SalesforceEng/runway-browser), a tool for
+[Runway](https://github.com/salesforce/runway-browser), a tool for
 simulating and visualizing concurrent and distributed system models.
 
 The Too Many Bananas problem is based on the Too Much Milk problem, which was
