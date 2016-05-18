@@ -1,5 +1,9 @@
 # Too Many Bananas model for Runway
 
+[![screenshot](screenshot.png)](https://runway.systems/?model=github.com/salesforce/runway-model-toomanybananas)
+
+[try this model in Runway](https://runway.systems/?model=github.com/salesforce/runway-model-toomanybananas)
+
 Too Many Bananas is a simple concurrency problem:
 
 1. You run out of bananas, so you go to the store.
